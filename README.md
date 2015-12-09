@@ -17,23 +17,23 @@
  *  Semantic-UI: semantic-ui.com
  
 ---
-## 准备添加功能:
+## 准备添加功能
 * 允许关闭/点击(如果需要) 以及对应的回调函数
 * 加载状态及对应的回调函数
 
 ---
-## 注意:
+## 注意
  * 由于loader关键字已在semantic-ui中使用,所以需要使用loading来代替
  * 为了避免重复操作,因此只有第一次创建组件的时候修改参数有效,其他时候都会忽略.如果需要修改加载器内容请使用"remove"删除后重新创建
  
 ---
-## 使用:
+## 使用
 <pre>
 $(selector).loading({params}).loading(action);
 </pre>
 
 ---
-## 例子:
+## 例子
 <pre>
 $("body").loading({
 	text: true,
